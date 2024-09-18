@@ -209,8 +209,8 @@ public class Plugin extends JavaPlugin {
         switch (interval) {
 
             case "HIGH" -> {
-                //1 minute = 60 * 20 = 1200 ticks.
-                return 1200L;
+                //12 seconds = 12 * 20 = 240 ticks.
+                return 240L;
             }
 
             case "NORMAL" -> {
